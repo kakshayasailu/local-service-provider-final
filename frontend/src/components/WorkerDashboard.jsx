@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import io from 'socket.io-client'
 
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://local-service-provider-final-backend.onrender.com/api'
 const SOCKET_URL = 'https://local-service-provider-final-backend.onrender.com'
 
 function WorkerDashboard({ user, onLogout }) {
