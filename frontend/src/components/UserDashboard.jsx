@@ -3,7 +3,7 @@ import axios from 'axios'
 import io from 'socket.io-client'
 
 const API_URL = 'http://localhost:5000/api'
-const SOCKET_URL = 'http://localhost:5000'
+const SOCKET_URL = 'https://local-service-provider-final-backend.onrender.com'
 
 function UserDashboard({ user, onLogout }) {
   const [workers, setWorkers] = useState([])
